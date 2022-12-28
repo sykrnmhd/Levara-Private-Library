@@ -40,14 +40,23 @@ The following are some of the features provided by the website that we want to c
 ## Views
 
 The view describes how the app's data should be presented. It shows the user's information in an understandable format based on their actions. In the Levara private library web app, the use of views would be a way to show the books available to the users, the status of the books, and receive data from models to display.
+
 ## Controllers
 
 Laravel also has controllers, which are an important component. Instead of writing the handling request logic in route files like closures, this procedure may be organized with the aid of Controller classes. Controllers are intended to aggregate related request processing functionality into a single class. They are located in the app/Http/Controllers directory of your Laravel project. Model View Controller is the complete version of MVC, which directs traffic between Views and Models. In the Levara private library web app, the controller will be the intermediary between input, data, and output.
+
 ## Routes
 
 A route is a method for generating a request URL for your application. These URLs are both human readable and SEO friendly, as they do not have to correspond to specific files on a website. Routes are generated in the routes folder in Laravel. For websites, they are built in the web.php file. APIs are also built within api.php. Laravel routing allows users to direct all application requests to the proper controller. Most Laravel primary routes recognize and accept a uniform asset identifier together with a closure, providing a straightforward and expressive manner of routing. Levara web routes are defined in route files found within the routes directory. 
+
 ## Models
 
 Models used in our website are to specify the data for each functionalities. For example, the details of the books in the library, details of the workers, details of the members, the borrowing details made and the schedule of the working shift.
 
+## Entity Relationship Diagram
 
+![Levara ERD](https://user-images.githubusercontent.com/98005633/209836102-0f614ed1-0c14-4462-9a6d-9c0abe48816d.png)
+
+## Sequential Diagram
+
+![Levara Sequence Diagram](https://user-images.githubusercontent.com/98005633/209836237-b795aed9-7499-46bc-bd8e-c5703f26fd6e.png)
