@@ -60,3 +60,12 @@ Models used in our website are to specify the data for each functionalities. For
 ## Sequential Diagram
 
 ![Levara Sequence Diagram](https://user-images.githubusercontent.com/98005633/209836237-b795aed9-7499-46bc-bd8e-c5703f26fd6e.png)
+
+## Project system captured screen and explanation
+
+
+## Challenge/difficulties to develop the application
+1.
+2.
+3.
+4.
