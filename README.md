@@ -65,7 +65,7 @@ Models used in our website are to specify the data for each functionalities. For
 
 
 ## Challenge/difficulties to develop the application
-1.
-2.
-3.
-4.
+1. To connect he web application to the database
+2. Working as a team and working on a different platform at the sam time made it hard to compile all the files
+3. To route the authentication of the user and the staff in the website
+4. To create the scheduling of the staff 
