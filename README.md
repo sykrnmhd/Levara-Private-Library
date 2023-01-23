@@ -1,66 +1,62 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Levara Private Library
 
-## About Laravel
+Group Members:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+MUHAMMAD DANIEL HAKIM BIN MOHD SUHAIMI 2018451
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+MUHAMMAD AIMAN SYAKIRIN BIN MOHD FAUZI 2010391
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+AZAMUDDEEN BIN SHAHPUDIN 2018065
 
-## Learning Laravel
+MOHD FAIZ HAFIZUDDIN BIN AHMAD YAZI 2011837
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Introduction
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+The process of handling a library with a large amount of records is quite tiring when doing it manually. With the existence of modern technology and systems, these processes can be made easily with just a few clicks and typing. Our project focuses on creating a website for a Levara private library service.
+The website also includes managing work schedules for each employee and their task. With this system, employers can manage all the book databases and also monitor ‘person in charge’ for each day and their tasks. Employer as the admin of the system can update and remove the information of certain books.
+This system also allows book lending through booking service. Visitors just need to register as a member and login the system and search for their books by book id or title and proceed to booking.
 
-## Laravel Sponsors
+## Objectives
+The objectives of the “Levara private library and duty roster” are as follows:
+1. To create a website that compiles all of the books in 
+2. To create a website that compiles the staffs’ work hours
+3. To create a website that ease the book searching
+4. To create a website that helps users to lend books easily by booking
+5. To create a website that allows workers to see their working shift easily
+6. To create a website that allows workers keep track of book records
+7. To help the stores storage records
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Features and Functionalities
 
-### Premium Partners
+The following are some of the features provided by the website that we want to create:
+1. Login feature: Login and account registration function
+2. Booking feature: Lend a book by booking
+3. Book searching feature: Search for a book function
+4. Work shift making feature: Workers can create and see their working shift
+5. Book record update, create and delete feature: Workers can keep records on the books whereabout
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## Views
 
-## Contributing
+The view describes how the app's data should be presented. It shows the user's information in an understandable format based on their actions. In the Levara private library web app, the use of views would be a way to show the books available to the users, the status of the books, and receive data from models to display.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Controllers
 
-## Code of Conduct
+Laravel also has controllers, which are an important component. Instead of writing the handling request logic in route files like closures, this procedure may be organized with the aid of Controller classes. Controllers are intended to aggregate related request processing functionality into a single class. They are located in the app/Http/Controllers directory of your Laravel project. Model View Controller is the complete version of MVC, which directs traffic between Views and Models. In the Levara private library web app, the controller will be the intermediary between input, data, and output.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Routes
 
-## Security Vulnerabilities
+A route is a method for generating a request URL for your application. These URLs are both human readable and SEO friendly, as they do not have to correspond to specific files on a website. Routes are generated in the routes folder in Laravel. For websites, they are built in the web.php file. APIs are also built within api.php. Laravel routing allows users to direct all application requests to the proper controller. Most Laravel primary routes recognize and accept a uniform asset identifier together with a closure, providing a straightforward and expressive manner of routing. Levara web routes are defined in route files found within the routes directory. 
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Models
 
-## License
+Models used in our website are to specify the data for each functionalities. For example, the details of the books in the library, details of the workers, details of the members, the borrowing details made and the schedule of the working shift.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Entity Relationship Diagram
+
+![Levara ERD](https://user-images.githubusercontent.com/98005633/209836102-0f614ed1-0c14-4462-9a6d-9c0abe48816d.png)
+
+## Sequential Diagram
+
+![Levara Sequence Diagram](https://user-images.githubusercontent.com/98005633/209836237-b795aed9-7499-46bc-bd8e-c5703f26fd6e.png)
