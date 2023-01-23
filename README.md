@@ -70,7 +70,7 @@ This is the landing page for user and admin
 This page is for user to register to the website
 
 ![Screenshot_20230123_090816](https://user-images.githubusercontent.com/98005633/214049264-bd3fb1b0-cd82-4f3c-ad04-c9106c3093d0.png)
-This pafe is for user to login to the system
+This page is for user to login to the system
 
 ![Screenshot_20230123_090831](https://user-images.githubusercontent.com/98005633/214049292-7ef77071-56dd-42a3-beaf-302bdaf2792c.png)
 This is the landing page for user/admin depending on their roles
