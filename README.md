@@ -63,9 +63,45 @@ Models used in our website are to specify the data for each functionalities. For
 
 ## Project system captured screen and explanation
 
+![Screenshot_20230123_090728](https://user-images.githubusercontent.com/98005633/214049120-e55b774e-29d1-4904-aea2-d4bc3d4791e9.png)
+explanation
+
+![Screenshot_20230123_090802](https://user-images.githubusercontent.com/98005633/214049211-317e550b-3e50-4899-bcbf-b9d0b9dbe363.png)
+explanation
+
+![Screenshot_20230123_090816](https://user-images.githubusercontent.com/98005633/214049264-bd3fb1b0-cd82-4f3c-ad04-c9106c3093d0.png)
+explanation
+
+![Screenshot_20230123_090831](https://user-images.githubusercontent.com/98005633/214049292-7ef77071-56dd-42a3-beaf-302bdaf2792c.png)
+explanation
+
+![Screenshot_20230123_090843](https://user-images.githubusercontent.com/98005633/214049321-32622e98-8444-4a01-8a08-050261bca7a0.png)
+explanation
+
+![Screenshot_20230123_090909](https://user-images.githubusercontent.com/98005633/214049326-35042cb4-dea7-44cb-8371-072c7d17edfd.png)
+explanation
+
+![Screenshot_20230123_090935](https://user-images.githubusercontent.com/98005633/214049328-bf0accc0-b45c-40cd-9760-d5f039741bf0.png)
+explanation
+
+![Screenshot_20230123_090947](https://user-images.githubusercontent.com/98005633/214049329-6ac2ceb6-6579-4245-8d1f-cd69d32c24dd.png)
+explanation
+
+![Screenshot_20230123_090958](https://user-images.githubusercontent.com/98005633/214049333-40cf0426-9a4c-449c-96a1-f3255977ddc3.png)
+explanation
+
+![Screenshot_20230123_091029](https://user-images.githubusercontent.com/98005633/214049335-933f2ac1-c5bb-433a-8d7c-d6ceebb2cb3c.png)
+explanation
+
+![Screenshot_20230123_091134](https://user-images.githubusercontent.com/98005633/214049339-64f27621-15f1-44ea-be25-5e3479f4d181.png)
+explanation
+
+![Screenshot_20230123_091144](https://user-images.githubusercontent.com/98005633/214049342-fb8b172b-e999-496c-88ea-b824bf6b3e9b.png)
+explanation
 
 ## Challenge/difficulties to develop the application
-1. To connect he web application to the database
-2. Working as a team and working on a different platform at the sam time made it hard to compile all the files
-3. To route the authentication of the user and the staff in the website
+1. To connect the web application to the database
+2. Working as a team and working on a different platform at the same time made it hard to compile all the files
+3. To route the authentication of the user and the staff to its routing in the website
 4. To create the scheduling of the staff 
+5. The database for each team member is different because of different server used
